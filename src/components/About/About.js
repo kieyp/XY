@@ -39,7 +39,7 @@ const About = () => {
           </StyledParagraph>
           <StyledParagraph>
             In my free time, I explore the world around me through a combination
-            of hiking, cycling, by music.
+            of hiking, cycling.
           </StyledParagraph>
           <Resume>
             <ResumeLink
