@@ -22,7 +22,8 @@ export const projectData = [
     id: 2,
     image: shoppersstop2Laptop,
     transitionImage: shoppersstop2Mobile,
-    title: "A web application to shop various departmental daily needs.",
+    title:
+      "Shoppersstop is An eCommerce website for lifestyle products. in this project we have implement feature like Product sort feature Product categorization based on colour, gender, price, brand, etc. Add to cart feature.",
     codeLink: "https://github.com/Ashokzarmariya/team-shoppersstop",
     liveLink: "https://team-shoppersstop.vercel.app/",
     techStack: ["HTML", "CSS", "Javascript", "Express", "Mongodb"],
@@ -31,7 +32,8 @@ export const projectData = [
     id: 3,
     image: uniqlo1laptop,
     transitionImage: uniqlo1mobile,
-    title: "A web application to shop various departmental daily needs.",
+    title:
+      "Uniqlo is a Japanese casual wear clothing store, cloned with using HTML,CSS,JavaScript. Uniqlo e-commerce web application",
     codeLink: "https://github.com/cnu01/Uniqlo-clone",
     liveLink: "https://uniqlo-pro.netlify.app/",
     techStack: ["HTML", "CSS", "Javascript"],
