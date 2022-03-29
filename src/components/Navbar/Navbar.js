@@ -123,7 +123,7 @@ const Navbar = () => {
       </StyledCTA>
 
       <Menu onClick={toggle}>
-        <Line width="1.5rem" />
+        <Line width="1.5rem" ml="0.5rem" />
         <Line width="1.5rem" ml="0.5rem" />
         <Line width="1.5rem" ml="0.5rem" />
       </Menu>
