@@ -4,6 +4,8 @@ import shoppersstop2Laptop from "../../assets/projects/shoppersstop-1-laptop.png
 import shoppersstop2Mobile from "../../assets/projects/shoppersstop-1-mobile.png";
 import uniqlo1laptop from "../../assets/projects/uniqlo-1-laptop.png";
 import uniqlo1mobile from "../../assets/projects/uniqlo-1-mobile.png";
+import booking1laptop from "../../assets/projects/booking1laptop.png";
+import booking1mobile from "../../assets/projects/booking1mobile.png";
 
 export {
   meesho1laptop,
@@ -12,4 +14,6 @@ export {
   shoppersstop2Mobile,
   uniqlo1mobile,
   uniqlo1laptop,
+  booking1laptop,
+  booking1mobile,
 };

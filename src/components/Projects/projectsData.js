@@ -5,6 +5,8 @@ import {
   shoppersstop2Mobile,
   uniqlo1mobile,
   uniqlo1laptop,
+  booking1laptop,
+  booking1mobile,
 } from "./projectImages";
 
 export const projectData = [
@@ -37,5 +39,23 @@ export const projectData = [
     codeLink: "https://github.com/cnu01/Uniqlo-clone",
     liveLink: "https://uniqlo-pro.netlify.app/",
     techStack: ["HTML", "CSS", "Javascript"],
+  },
+  {
+    id: 4,
+    image: booking1laptop,
+    transitionImage: booking1mobile,
+    title:
+      "Booking.com gives you the online booking service for the any place in the world. we have cloned the webpage by using React,Express, JavaScript and HTML,CSS",
+    codeLink: "https://github.com/nikhilsingh38/Booking.com_clone",
+    liveLink: "https://booking-com-clone-seven.vercel.app/",
+    techStack: [
+      "React",
+      "Express",
+      "Javascript",
+      "Mongodb",
+      "heroku",
+      "HTML",
+      "CSS",
+    ],
   },
 ];
