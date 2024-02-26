@@ -43,7 +43,7 @@ const About = () => {
           <Resume>
             <ResumeLink
               download="Omkar_Londhe"
-              href="https://drive.google.com/file/d/1xU5_mR6GOLCwfXI3B1EO4KXwPSTwGLus/view?usp=sharing"
+              href="https://docs.google.com/document/d/1FXr_W357unjJWkWfqHjItycav2acddK8mFXTDcbBnmc/edit?usp=sharing"
               target={"_blank"}
               icon={downloadIcon}
             >
