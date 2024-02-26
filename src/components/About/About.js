@@ -21,6 +21,7 @@ const About = () => {
 
       <AboutContent>
         <AboutImage src={myImage} />
+
         <AboutDetailsContainer>
           <StyledParagraph>
            Over the last 5 years, my passion for IoT and its underlying technology has been a driving force. 
@@ -28,13 +29,11 @@ const About = () => {
 
           </StyledParagraph>
           <StyledParagraph>
-            Though I was an amateur in this new world, I knew that I wanted to
-            pursue my goals in this field. Coincidentally, I stumbled upon the
-            courses offered by Moringa School, and immediately enrolled there.
-            Currently, I am learning full stack web development. I am
+            Though I am an amateur in this new world, I always  knew that I wanted to
+            pursue my goals in this field.  I am
             skilled in handling HTML, CSS, JavaScript, node.js, Python, React,
             SQL and GitHub. I'm always enthusiastic to learn new things and
-            highly passionate about building new web applications.
+            highly passionate about building web applications besides data analytics
           </StyledParagraph>
           <StyledParagraph>
             In my free time, I explore the world around me through a combination
