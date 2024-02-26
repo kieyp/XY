@@ -9,7 +9,7 @@ import {
 } from "../styles/About.styled";
 import { SectionHeading, SectionTitle } from "../styles/SectionHeading";
 import { StyledParagraph } from "../styles/Typography.styled";
-import myImage from "../../assets/my_image.jpg";
+import myImage from "../../assets/my_image2.jpeg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
 
 const About = () => {
@@ -23,23 +23,22 @@ const About = () => {
         <AboutImage src={myImage} />
         <AboutDetailsContainer>
           <StyledParagraph>
-            During my years at college, I participate in multiple coding-related
-            workshops where we discussed IoT and drone coding amongst many other
-            topics. This drew me into the world of coding, and I got hooked onto
-            it.
+           Over the last 5 years, my passion for IoT and its underlying technology has been a driving force. 
+           This journey naturally led me to explore the captivating world of software engineering. 
+
           </StyledParagraph>
           <StyledParagraph>
             Though I was an amateur in this new world, I knew that I wanted to
             pursue my goals in this field. Coincidentally, I stumbled upon the
-            courses offered by Masai School, and immediately enrolled there.
-            Currently, I am learning MERN full stack web development. I am
-            skilled in handling HTML, CSS, JavaScript, node.js, Express, React,
-            MongoDB, GitHub. I'm always enthusiastic to learn new things and
+            courses offered by Moringa School, and immediately enrolled there.
+            Currently, I am learning full stack web development. I am
+            skilled in handling HTML, CSS, JavaScript, node.js, Python, React,
+            SQL and GitHub. I'm always enthusiastic to learn new things and
             highly passionate about building new web applications.
           </StyledParagraph>
           <StyledParagraph>
             In my free time, I explore the world around me through a combination
-            of hiking, cycling.
+            of hiking and exploring new swimming pools .
           </StyledParagraph>
           <Resume>
             <ResumeLink

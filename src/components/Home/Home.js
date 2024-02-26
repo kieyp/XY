@@ -11,6 +11,7 @@ import {
   SiMinutemailer,
   SiTwitter,
   SiPhonepe,
+  SiGmail,
 } from "react-icons/si";
 
 const Home = () => {
@@ -20,30 +21,30 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "1rem" }}>
       <StyledHome id="home">
-        <Name>Omkar Londhe</Name>
-        <Title>Full Stack Web Developer</Title>
-        <p>Specialization In MERN Stack</p>
+        <Name>Boniface Cheruiyot</Name>
+        <Title>SOFTWARE DEVELOPER</Title>
+        <p>Specialization In Back End Developement and Data Analytics </p>
         <div id="contactdiv">
           <a
-            href="https://github.com/Omkaar1"
+            href="https://github.com/kieyp"
             target="_blank"
             rel="noopener noreferrer"
           >
             <SiGithub />
           </a>
           <a
-            href="https://www.linkedin.com/in/omkar-londhe-495956224/"
+            href="https://www.linkedin.com/in/kipbon/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <SiLinkedin />
           </a>
 
-          <a href="tel:9049797926">
+          <a href="tel:0720455615">
             <IoIosCall />
           </a>
-          <a href="mailto:imomkarlondhe@gmail.com">
-            <IoMdMail />
+          <a href="mailto:cheruiyotbony@gmail.com">
+            <SiGmail />
           </a>
         </div>
       </StyledHome>

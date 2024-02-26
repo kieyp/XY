@@ -3,7 +3,7 @@ export const Designer = () => {
     <div
       style={{ textAlign: "center", backgroundColor: "black", color: "white" }}
     >
-      Made with ❤️ By Omkar Londhe.
+      Made with ❤️ By Boniface Cheruiyot.
     </div>
   );
 };

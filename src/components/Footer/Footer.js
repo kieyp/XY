@@ -40,7 +40,7 @@ const Footer = () => {
 
       <FooterBigLinkContainer>
         <FooterBigLink
-          href="mailto:imomkarlondhe@gmail.com"
+          href="mailto:cheruiyotbony@gmail.com"
           data-hover="Let's talk!"
         >
           Need a developer?
@@ -49,27 +49,27 @@ const Footer = () => {
       <FooterContacts>
         <FooterContact>
           <ContactHeader>Call me</ContactHeader>
-          <ContactLink href="tel:9049797926">9049797926</ContactLink>
+          <ContactLink href="tel:0720455615">0720455615</ContactLink>
         </FooterContact>
         <FooterContact>
           <ContactHeader>Social</ContactHeader>{" "}
           <FooterSocials>
             <ContactLink
-              href="https://github.com/Omkaar1"
+              href="https://github.com/kieyp"
               target="_blank"
               rel="noopener noreferrer"
             >
               <SiGithub />
             </ContactLink>
             <ContactLink
-              href="https://www.linkedin.com/in/omkar-londhe-495956224//"
+              href="linkedin.com/in/kipbon/"
               target="_blank"
               rel="noopener noreferrer"
             >
               <SiLinkedin />
             </ContactLink>
             <ContactLink
-              href="https://twitter.com/IMOmkaar"
+              href="https://twitter.com/cheruiyotbonie"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -79,8 +79,8 @@ const Footer = () => {
         </FooterContact>
         <FooterContact>
           <ContactHeader>Mail</ContactHeader>
-          <ContactLink href="mailto:imomkarlondhe@gmail.com">
-            imomkarlondhe@gmail.com
+          <ContactLink href="mailto:cheruiyotbony@gmail.com">
+            cheruiyotbony@gmail.com
           </ContactLink>
         </FooterContact>
       </FooterContacts>

@@ -34,7 +34,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
           Playground
         </MobileMenuLink>
         <MobileButton
-          href="mailto:imomkarlondhe@gmail.com "
+          href="mailto:cheruiyotbony@gmail.com "
           target="_blank"
           rel="noreferrer"
         >
@@ -46,14 +46,14 @@ const MobileMenu = ({ isOpen, toggle }) => {
       </MobileMenuList>
       <MobileSocials>
         <MobileSocial
-          href="mailto:imomkarlondhe@gmail.com"
+          href="mailto:cheruiyotbony@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           Mail
         </MobileSocial>
         <MobileSocial
-          href="https://github.com/Omkaar1"
+          href="https://github.com/kieyp"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -61,7 +61,7 @@ const MobileMenu = ({ isOpen, toggle }) => {
         </MobileSocial>
 
         <MobileSocial
-          href="https://www.linkedin.com/in/omkar-londhe-495956224/"
+          href="linkedin.com/in/kipbon/"
           target="_blank"
           rel="noopener noreferrer"
         >
