@@ -15,7 +15,7 @@ export const iconsData = [
     id: 1,
     icon: html5,
     name: "HTML5",
-    href: "https://www.w3.org/html/",
+    href: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3AMicrosoft_Excel_2013-2019_logo.svg&psig=AOvVaw08-pAVGJwNsj607fgS-0Mc&ust=1719210180134000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCKCLrpKL8YYDFQAAAAAdAAAAABAE",
   },
   {
     id: 2,
