@@ -24,7 +24,7 @@ const About = () => {
 
         <AboutDetailsContainer>
           <StyledParagraph>
-          I'm now a thief , just like president  Ruttoh
+          I'm that guy you need for Cutting edge solutions
           </StyledParagraph>
         
           <Resume>
