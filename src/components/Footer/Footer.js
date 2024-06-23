@@ -62,7 +62,7 @@ const Footer = () => {
               <SiGithub />
             </ContactLink>
             <ContactLink
-              href="linkedin.com/in/kipbon/"
+              href="https://www.linkedin.com/in/kipbon/"
               target="_blank"
               rel="noopener noreferrer"
             >
