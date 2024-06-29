@@ -16,7 +16,7 @@ import { IoMdMail } from "react-icons/io";
 const Navbar = () => {
   const [stickyNav, setStickyNav] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
-  // Height
+
   const stickyNavFunction = () => {
     if (window.scrollY >= 510) {
       setStickyNav(true);
@@ -31,7 +31,6 @@ const Navbar = () => {
     scroll.scrollToTop({ delay: 0, duration: 0 });
   };
 
-  // mobile toggle
   const toggle = () => {
     setIsOpen(!isOpen);
   };
@@ -49,6 +48,7 @@ const Navbar = () => {
             spyThrottle={0}
             exact="true"
             offset={-85.26}
+            color="#333" // Adjust color here
           >
             Home
           </StyledNavLinks>
@@ -59,27 +59,13 @@ const Navbar = () => {
             smooth={true}
             duration={0}
             delay={0}
-            sp
-            y={true}
-            spyThrottle={0}
-            exact="true"
-            offset={-85.26}
-          >
-            About
-          </StyledNavLinks>
-        </NavList>
-        <NavList>
-          <StyledNavLinks
-            to="skills"
-            smooth={true}
-            duration={0}
-            delay={0}
             spy={true}
             spyThrottle={0}
             exact="true"
             offset={-85.26}
+            color="#333" // Adjust color here
           >
-            Skills
+            About
           </StyledNavLinks>
         </NavList>
         <NavList>
@@ -92,6 +78,7 @@ const Navbar = () => {
             spyThrottle={0}
             exact="true"
             offset={-85.26}
+            color="#333" // Adjust color here
           >
             Projects
           </StyledNavLinks>
@@ -106,11 +93,13 @@ const Navbar = () => {
             spyThrottle={0}
             exact="true"
             offset={-85.26}
+            color="#333" // Adjust color here
           >
             Contact me
           </StyledNavLinks>
         </NavList>
       </NavMenuList>
+
       <StyledCTA
         href="mailto:cheruiyotbony@gmail.com"
         target="_blank"
@@ -128,7 +117,7 @@ const Navbar = () => {
         <Line width="1.5rem" ml="0.5rem" />
       </Menu>
 
-      <MobileMenu isOpen={isOpen} toggle={toggle}></MobileMenu>
+      <MobileMenu isOpen={isOpen} toggle={toggle} />
     </StyledNavbar>
   );
 };
