@@ -11,10 +11,10 @@ const StyledHome = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: url(${profileImage}) no-repeat center center fixed; /* Background image */
+  background: url(${profileImage}) no-repeat center center fixed;
   background-size: cover;
-  color: #003366; /* Navy blue text color */
-  overflow: hidden; /* Ensures no overflow issues */
+  color: #fff;
+  overflow: hidden;
 `;
 
 const Overlay = styled.div`
@@ -23,44 +23,43 @@ const Overlay = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  background-color: rgba(0, 0, 0, 0.5);
 `;
 
 const HeroSection = styled.div`
   position: relative;
-  z-index: 1; /* Ensures content is above overlay */
-  text-align: center; /* Center align text content */
+  z-index: 1;
+  text-align: center;
+  padding: 0 1rem; /* Added padding for better spacing on smaller screens */
 `;
 
 const HeroTitle = styled.h1`
   font-family: Montserrat, sans-serif;
   font-weight: 600;
-  font-size: 4.5rem; /* Increased font size */
+  font-size: 3rem; /* Adjusted font size for smaller screens */
   margin-bottom: 1rem;
-  color: #fff; /* White text color */
 `;
 
 const HeroText = styled.p`
   font-family: Roboto, sans-serif;
-  font-size: 2rem; /* Increased font size */
-  font-weight: bold; /* Bold text */
+  font-size: 1.5rem; /* Consistent font size */
+  font-weight: bold;
   text-align: justify;
   line-height: 1.6;
-  margin-bottom: 2rem;
-  color: #fff; /* White text color */
+  margin-bottom: 1rem; /* Decreased margin for better spacing */
 `;
 
 const SocialIcons = styled.div`
-  margin-top: 2rem;
+  margin-top: 1rem; /* Decreased top margin for better spacing on smaller screens */
 
   & > a {
-    font-size: 2.5rem; /* Increased icon size */
-    color: #fff; /* White text color */
+    font-size: 2rem;
+    color: #fff;
     margin: 0 1rem;
     transition: color 0.3s ease;
 
     &:hover {
-      color: #007bff; /* Light blue on hover */
+      color: #007bff;
     }
   }
 `;
@@ -81,12 +80,11 @@ const Home = () => {
   return (
     <IconContext.Provider value={{ size: "2rem" }}>
       <StyledHome id="home">
-        <Overlay /> {/* Overlay for background */}
+        <Overlay />
         <HeroSection className="fade-in">
           <HeroTitle>Welcome to My Portfolio</HeroTitle>
-          <HeroText>
-            {greeting} I'm Boniface Cheruiyot, a passionate Data Analyst and Software Developer.
-          </HeroText>
+          <HeroText>{greeting} I'm Boniface Cheruiyot</HeroText>
+          <HeroText>A  Data Analyst and Software Developer.</HeroText>
           <SocialIcons className="social-icons">
             <a
               href="https://github.com/kieyp"
