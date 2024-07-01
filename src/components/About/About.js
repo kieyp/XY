@@ -5,8 +5,8 @@ import myImage from "../../assets/my_image2.jpeg";
 import downloadIcon from "../../assets/icons/download-icon.svg";
 
 // Define color scheme
-const primaryColor = "#007bff";   // Vibrant primary blue
-const accentColor = "#6c757d";    // Subtle grey for accents
+const primaryColor = "#007bff"; // Vibrant primary blue
+const accentColor = "#6c757d"; // Subtle grey for accents
 const backgroundColor = "#f8f9fa"; // Light background color
 
 // Styled Components with updated colors and modern styles
@@ -17,9 +17,19 @@ const StyledAbout = styled.section`
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 2rem auto;
   max-width: 1200px;
+  animation: fadeIn 1s ease-in-out;
 
   @media (max-width: 768px) {
     padding: 1rem;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 `;
 
@@ -32,6 +42,7 @@ const SectionTitle = styled.h2`
   font-size: 2.5rem;
   color: ${primaryColor}; /* Use primary color for titles */
   margin-bottom: 1.5rem;
+  font-family: 'Arial Black', sans-serif;
 `;
 
 const AboutContent = styled.div`
@@ -69,6 +80,7 @@ const StyledParagraph = styled.p`
   line-height: 1.8;
   color: #555; /* Dark grey text for readability */
   text-align: justify;
+  font-family: 'Open Sans', sans-serif;
 `;
 
 const Resume = styled.div`
@@ -84,6 +96,7 @@ const ResumeLink = styled.a`
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
 
   &:hover {
     background-color: #0056b3;
@@ -100,17 +113,9 @@ SectionHeading.defaultProps = {
   mb: "3rem",
 };
 
-SectionTitle.defaultProps = {
-  dark: true,
-};
-
 // PropTypes
 SectionHeading.propTypes = {
   mb: PropTypes.string,
-};
-
-SectionTitle.propTypes = {
-  dark: PropTypes.bool,
 };
 
 const About = () => {
@@ -125,12 +130,21 @@ const About = () => {
 
         <AboutDetailsContainer>
           <StyledParagraph>
-            With a backpack and a laptop, that's where my story began. Leaving my hometown was a bittersweet moment as I bid farewell to familiar faces and places. Carrying only my essentials and the excitement for what lay ahead, my laptop became my closest companion, a gateway to endless possibilities and knowledge.
-            I enrolled in an intensive coding bootcamp, where long hours and challenging projects became the norm. Each line of code written, debugged, and perfected brought a sense of accomplishment. I discovered the beauty of algorithms, the elegance of clean code, and the power of collaboration with fellow coders.
-            The journey was not without its obstacles. There were times when bugs seemed insurmountable, when sleep was scarce, and frustration was high. But each challenge was a lesson, each setback an opportunity to learn and grow. I learned to persevere, to seek solutions from different angles, and to never give up.
-            Months of hard work culminated in my first major project: a cutting-edge solution that simplified complex processes. Seeing my creation in action, knowing it could make a difference, was an exhilarating moment. It was the validation of my skills, the proof that I was on the right path.
-            As I continued to develop my skills, I started to connect with like-minded individuals. Meetups, hackathons, and online forums became my new social circles. These connections not only provided support and inspiration but also opened doors to new opportunities and collaborations.
-            Today, my story is still unfolding. The solutions I create continue to evolve, adapt, and make an impact. The thrill to code and innovate remains as strong as ever. My journey is a testament to the power of perseverance, passion, and the endless possibilities that a backbag and a laptop can unlock.
+          From the moment I could count, numbers fascinated me. As a child, while other kids played outside, I would spend hours with my collection of puzzles and brainteasers. I loved seeing how patterns emerged and solving problems that seemed impossible at first glance. This early obsession with numbers set the stage for my future as a data analyst.
+
+My first real encounter with the power of data came during a summer job at a local retail store. I was tasked with organizing sales records, and as I sifted through mountains of data, I began to notice trends. Certain products sold better on weekends, while others peaked during the holiday season. Intrigued, I started creating simple charts and graphs to visualize these patterns. The store manager was impressed, and my analysis helped optimize inventory and boost sales. This was my first taste of how data could drive meaningful decisions, and I was hooked.
+
+After that summer, I knew I wanted to dive deeper into the world of data. I took on freelance projects, helping small businesses make sense of their numbers. One memorable project involved a local café struggling to stay afloat. By analyzing their sales data, I discovered that their morning coffee sales were booming, but afternoons were slow. I suggested introducing afternoon specials and promoting events to draw in more customers. The café owner followed my advice, and business picked up significantly. Seeing the tangible impact of my work was incredibly fulfilling.
+
+As I gained experience, my projects grew more complex. I found myself drawn to big data, eager to tackle the challenges and opportunities it presented. I joined a tech startup where I could immerse myself in vast datasets, using advanced analytics to uncover insights. One of my favorite projects involved analyzing user behavior data to improve a mobile app. By identifying patterns in how users interacted with the app, we were able to make changes that significantly increased user engagement and retention. Each success fueled my passion and deepened my commitment to the field.
+
+My journey in data analytics wasn’t always smooth. There were times when I felt overwhelmed by the sheer volume of data and the complexity of the problems I faced. But every challenge was a learning opportunity. I developed new skills, learned new tools, and became adept at navigating the ever-evolving landscape of data technology. I also learned the importance of storytelling in data analytics—how to present complex data in a way that was accessible and compelling to stakeholders.
+
+Today, I lead a team of talented data analysts at a major corporation. We work on projects that drive strategic decisions and fuel innovation. From predicting market trends to optimizing supply chains, our work is at the heart of the company’s success. Looking back, my journey has been a series of discoveries—each project, each dataset, a puzzle waiting to be solved.
+
+My journey from a number-loving child to a professional data analyst has been incredibly rewarding. It’s a testament to the power of curiosity, the joy of problem-solving, and the endless possibilities that data holds. For anyone with a love of numbers and a desire to uncover hidden truths, data analytics offers a world of opportunity. Stay curious, embrace the challenges, and never stop seeking the story behind the numbers.
+
+
           </StyledParagraph>
 
           <Resume>
@@ -139,6 +153,7 @@ const About = () => {
               href="https://docs.google.com/document/d/1FXr_W357unjJWkWfqHjItycav2acddK8mFXTDcbBnmc/edit?usp=sharing"
               target="_blank"
               icon={downloadIcon}
+              aria-label="Download Omkar Londhe's Resume"
             >
               View My Stories
             </ResumeLink>
