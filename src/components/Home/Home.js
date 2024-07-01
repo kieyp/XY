@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { IconContext } from "react-icons";
 import { IoIosCall } from "react-icons/io";
 import { SiLinkedin, SiGithub, SiGmail } from "react-icons/si";
-import profileImage from "../../assets/12345.jpg"; // Example profile image import
+import profileImage from "../../assets/01.jpg"; // Example profile image import
 
 const StyledHome = styled.div`
   position: relative;
