@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { IconContext } from "react-icons";
 import { IoIosCall } from "react-icons/io";
 import { SiLinkedin, SiGithub, SiGmail } from "react-icons/si";
-import profileImage from "../../assets/daamn.png"; // Example profile image import
+import profileImage from "../../assets/daamnn.webp"; // Example profile image import
 
 const StyledHome = styled.div`
   position: relative;
@@ -30,27 +30,27 @@ const HeroSection = styled.div`
   position: relative;
   z-index: 1;
   text-align: center;
-  padding: 0 1rem; /* Added padding for better spacing on smaller screens */
+  padding: 0 2rem;
 `;
 
 const HeroTitle = styled.h1`
   font-family: Montserrat, sans-serif;
   font-weight: 600;
-  font-size: 3rem; /* Adjusted font size for smaller screens */
+  font-size: 3rem;
   margin-bottom: 1rem;
 `;
 
 const HeroText = styled.p`
   font-family: Roboto, sans-serif;
-  font-size: 1.5rem; /* Consistent font size */
+  font-size: 1.5rem;
   font-weight: bold;
-  text-align: justify;
+  text-align: center;
   line-height: 1.6;
-  margin-bottom: 1rem; /* Decreased margin for better spacing */
+  margin-bottom: 1rem;
 `;
 
 const SocialIcons = styled.div`
-  margin-top: 1rem; /* Decreased top margin for better spacing on smaller screens */
+  margin-top: 1rem;
 
   & > a {
     font-size: 2rem;
@@ -84,7 +84,7 @@ const Home = () => {
         <HeroSection className="fade-in">
           <HeroTitle>Welcome to My Portfolio</HeroTitle>
           <HeroText>{greeting} I'm Boniface Cheruiyot</HeroText>
-          <HeroText>A  Data Analyst and Software Developer.</HeroText>
+          <HeroText>A Data Analyst and Software Developer.</HeroText>
           <SocialIcons className="social-icons">
             <a
               href="https://github.com/kieyp"
