@@ -7,6 +7,8 @@ import {
   uniqlo1laptop,
   booking1laptop,
   booking1mobile,
+  booking2mobile,
+
 } from "./projectImages";
 
 export const projectData = [
@@ -30,16 +32,16 @@ export const projectData = [
     liveLink: "https://onedrive.live.com/edit?id=1F7CFD4B654E7A49!552&resid=1F7CFD4B654E7A49!552&ithint=file%2cxlsx&authkey=!ABBA4J6VHUUsnH0&wdo=2&cid=1f7cfd4b654e7a49/",
     techStack: ["Ms Excel"],
   },
-  // {
-  //   id: 3,
-  //   image: uniqlo1laptop,
-  //   transitionImage: uniqlo1mobile,
-  //   title:
-  //     "Uniqlo is a Japanese casual wear clothing store, cloned with using HTML,CSS,JavaScript. Uniqlo e-commerce web application",
-  //   codeLink: "https://github.com/cnu01/Uniqlo-clone",
-  //   liveLink: "https://uniqlo-pro.netlify.app/",
-  //   techStack: ["HTML", "CSS", "Javascript"],
-  // },
+  {
+    id: 3,
+    image: booking2mobile,
+    transitionImage:booking2mobile,
+    title:
+      "SALOON performance dash-tracking numbers is the best way to grow a business",
+    codeLink: "https://onedrive.live.com/edit.aspx?resid=D364AB45CC631183!114&cid=d364ab45cc631183&CT=1720353593233&OR=ItemsView",
+    liveLink: "https://onedrive.live.com/edit.aspx?resid=D364AB45CC631183!114&cid=d364ab45cc631183&CT=1720353593233&OR=ItemsView",
+    techStack: ["Microsoft Excel"],
+  },
   // {
   //   id: 4,
   //   image: booking1laptop,
