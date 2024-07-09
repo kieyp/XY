@@ -3,18 +3,19 @@ import styled from "styled-components";
 import { IconContext } from "react-icons";
 import { IoIosCall } from "react-icons/io";
 import { SiLinkedin, SiGithub, SiGmail } from "react-icons/si";
-import profileImage from "../../assets/download-cat-vector-illustration-freebie-by-ell-hex.webp"; // Example profile image import
+import profileImage from "../../assets/abc.jpg"; // Example profile image import
 
 const StyledHome = styled.div`
   position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   background: url(${profileImage}) no-repeat center center fixed;
   background-size: cover;
   color: #fff;
   overflow: hidden;
+  padding-left: 5%;
 `;
 
 const Overlay = styled.div`
@@ -29,24 +30,26 @@ const Overlay = styled.div`
 const HeroSection = styled.div`
   position: relative;
   z-index: 1;
-  text-align: center;
-  padding: 0 2rem;
+  text-align: left;
+  max-width: 600px;
+  padding: 2rem;
 `;
 
 const HeroTitle = styled.h1`
-  font-family: Montserrat, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 3rem;
   margin-bottom: 1rem;
 `;
 
 const HeroText = styled.p`
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   line-height: 1.6;
   margin-bottom: 1rem;
+  text-transform: uppercase; /* Uppercase text */
 `;
 
 const SocialIcons = styled.div`
@@ -55,7 +58,7 @@ const SocialIcons = styled.div`
   & > a {
     font-size: 2rem;
     color: #fff;
-    margin: 0 1rem;
+    margin-right: 1rem;
     transition: color 0.3s ease;
 
     &:hover {
@@ -82,9 +85,12 @@ const Home = () => {
       <StyledHome id="home">
         <Overlay />
         <HeroSection className="fade-in">
-          <HeroTitle>Welcome to My Portfolio</HeroTitle>
-          <HeroText>{greeting} I'm Boniface Cheruiyot</HeroText>
-          <HeroText>A Data Analyst and Software Developer.</HeroText>
+          <HeroTitle>KNOW ME MORE</HeroTitle>
+          <HeroText>{greeting}</HeroText>
+          <HeroText>HI, I'M BONIFACE CHERUIYOT</HeroText>
+          <HeroText>
+            I'M A DATA ANALYST AND A SOFTWARE DEVELOPER WITH A PASSION FOR NUMBERS AND CODES.
+          </HeroText>
           <SocialIcons className="social-icons">
             <a
               href="https://github.com/kieyp"
