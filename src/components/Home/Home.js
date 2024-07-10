@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { IconContext } from "react-icons";
 import { IoIosCall } from "react-icons/io";
 import { SiLinkedin, SiGithub, SiGmail } from "react-icons/si";
-import profileImage from "../../assets/paper-style-dynamic-lines-background_23-2149008629.jpg"; // Example profile image import
+import profileImage from "../../assets/ai-robot-hand-close-human-hand_23-2151015302.jpg"; // Example profile image import
 
 const StyledHome = styled.div`
   position: relative;
@@ -85,11 +85,11 @@ const Home = () => {
       <StyledHome id="home">
         <Overlay />
         <HeroSection className="fade-in">
-          <HeroTitle>KNOW ME MORE</HeroTitle>
+          <HeroTitle>TOP 5 %  </HeroTitle>
           <HeroText>{greeting}</HeroText>
-          <HeroText>HI, I'M BONIFACE CHERUIYOT</HeroText>
+          <HeroText>HEY, I'M BONIFACE CHERUIYOT</HeroText>
           <HeroText>
-            I'M A DATA ANALYST AND A SOFTWARE DEVELOPER WITH A PASSION FOR NUMBERS AND CODES.
+            A DATA ANALYST AND A SOFTWARE DEVELOPER WITH A PASSION FOR NUMBERS AND CODES.
           </HeroText>
           <SocialIcons className="social-icons">
             <a
