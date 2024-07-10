@@ -27,7 +27,7 @@ export const projectData = [
     image: shoppersstop2Laptop,
     transitionImage: shoppersstop2Mobile,
     title:
-      "Ms Excel Dashboard to highlight performance over a period of time ,while using slicers to  filter data.",
+      "This is a basic Ms Excel Dashboard to highlight performance over a period of time ,while using slicers to  filter data, To explore this file, click the link below , practice data available.",
     codeLink: "https://onedrive.live.com/edit?id=1F7CFD4B654E7A49!552&resid=1F7CFD4B654E7A49!552&ithint=file%2cxlsx&authkey=!ABBA4J6VHUUsnH0&wdo=2&cid=1f7cfd4b654e7a49",
     liveLink: "https://onedrive.live.com/edit?id=1F7CFD4B654E7A49!552&resid=1F7CFD4B654E7A49!552&ithint=file%2cxlsx&authkey=!ABBA4J6VHUUsnH0&wdo=2&cid=1f7cfd4b654e7a49/",
     techStack: ["Ms Excel"],
@@ -37,7 +37,7 @@ export const projectData = [
     image: booking2mobile,
     transitionImage:booking2mobile,
     title:
-      "SALOON performance dash-tracking numbers is the best way to grow a business",
+      "magine managing a chain of salons with precision and ease by leveraging data. Data analytics is the key to making informed decisions that drive efficiency and profitability. By analyzing customer demographics, booking patterns, and feedback, we can tailor our services to meet customer needs and optimize staff schedules. Tracking inventory usage and supplier performance ensures that we always have the right products in stock without overordering. Financial analysis helps us monitor revenue streams and manage costs, while marketing data allows us to create effective campaigns and retain loyal customers.",
     codeLink: "https://onedrive.live.com/edit.aspx?resid=D364AB45CC631183!114&cid=d364ab45cc631183&CT=1720353593233&OR=ItemsView",
     liveLink: "https://onedrive.live.com/edit.aspx?resid=D364AB45CC631183!114&cid=d364ab45cc631183&CT=1720353593233&OR=ItemsView",
     techStack: ["Microsoft Excel"],

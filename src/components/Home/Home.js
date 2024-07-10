@@ -40,6 +40,14 @@ const HeroTitle = styled.h1`
   font-weight: 600;
   font-size: 3rem;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center; /* Align items vertically */
+`;
+
+const NinjaEmoji = styled.span`
+  margin-left: 0.5rem; /* Adjust spacing between text and emoji */
+  font-size: 3rem; /* Adjust size of emoji */
+  color: #fff; /* Set color to white */
 `;
 
 const HeroText = styled.p`
@@ -49,7 +57,7 @@ const HeroText = styled.p`
   text-align: left;
   line-height: 1.6;
   margin-bottom: 1rem;
-  text-transform: uppercase; /* Uppercase text */
+  text-transform: uppercase;
 `;
 
 const SocialIcons = styled.div`
@@ -85,7 +93,9 @@ const Home = () => {
       <StyledHome id="home">
         <Overlay />
         <HeroSection className="fade-in">
-          <HeroTitle>TOP 5 %  </HeroTitle>
+          <HeroTitle>
+            THE TOP 5% <NinjaEmoji>🥷</NinjaEmoji>
+          </HeroTitle>
           <HeroText>{greeting}</HeroText>
           <HeroText>HEY, I'M BONIFACE CHERUIYOT</HeroText>
           <HeroText>
