@@ -99,7 +99,7 @@ const Home = () => {
           <HeroText>{greeting}</HeroText>
           <HeroText>HEY, I'M KIEYP</HeroText>
           <HeroText>
-            A DATA ANALYST AND A SOFTWARE DEVELOPER WITH A PASSION FOR NUMBERS AND CODES.
+            A DATA ANALYST AND A SOFTWARE DEV .
           </HeroText>
           <SocialIcons className="social-icons">
             <a
