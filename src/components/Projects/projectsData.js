@@ -12,16 +12,16 @@ import {
 } from "./projectImages";
 
 export const projectData = [
-  {
-    id: 1,
-    image: meesho1Mobile,
-    transitionImage: meesho1laptop,
-    title:
-      "Liquer world is an ecommerce project that  handles liquer  purchase and  enquiries about any liquer you want any time.",
-    codeLink: "https://github.com/Yonkothe5th/group-6-project",
-    liveLink: "https://liquor-world-frontend.onrender.com/",
-    techStack: ["HTML", "CSS", "JavaScript","React"],
-  },
+  // {
+  //   id: 1,
+  //   image: meesho1Mobile,
+  //   transitionImage: meesho1laptop,
+  //   title:
+  //     "Liquer world is an ecommerce project that  handles liquer  purchase and  enquiries about any liquer you want any time.",
+  //   codeLink: "https://github.com/Yonkothe5th/group-6-project",
+  //   liveLink: "https://liquor-world-frontend.onrender.com/",
+  //   techStack: ["HTML", "CSS", "JavaScript","React"],
+  // },
   {
     id: 2,
     image: shoppersstop2Laptop,
