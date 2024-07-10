@@ -97,7 +97,7 @@ const Home = () => {
             THE TOP 5% <NinjaEmoji>🥷</NinjaEmoji>
           </HeroTitle>
           <HeroText>{greeting}</HeroText>
-          <HeroText>HEY, I'M BONIFACE CHERUIYOT</HeroText>
+          <HeroText>HEY, I'M KIEYP</HeroText>
           <HeroText>
             A DATA ANALYST AND A SOFTWARE DEVELOPER WITH A PASSION FOR NUMBERS AND CODES.
           </HeroText>
